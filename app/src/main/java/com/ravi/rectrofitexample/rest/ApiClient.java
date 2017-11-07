@@ -6,7 +6,11 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
 
-    public static final String BASE_URL = "http://220.225.38.123:8081/LogicShore.svc/";
+    //for get service will work
+//    public static final String BASE_URL = "http://220.225.38.123:8081/LogicShore.svc/";
+
+    public static final String BASE_URL = " http://tecdatum.net/Rckservice/api/RCK/";
+
     private static Retrofit retrofit = null;
 
 
